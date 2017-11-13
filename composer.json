@@ -1,0 +1,26 @@
+{
+    "name": "airbee/kung-fu",
+    "description": "Kung Fu Zeug",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "kindermann",
+            "email": "kindermann@htl.rennweg.at"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Weissheiten/htl3r.kungfumovies.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/endroid/QrCode.git"
+        }
+    ],
+    "require": {
+        "htl3r/kung-fu-movies": "dev-master",
+        "endroid/qrcode": "^2.4.0"
+    }
+}
